@@ -1,0 +1,171 @@
+body {
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    min-width: 290px;
+}
+#main {
+    background: url("../img/top-back.png") no-repeat center center;
+    height: 1338px;
+}
+
+.container {
+    padding-top: 45px;
+}
+
+.number{
+    padding-top: 35px;
+    padding-right: 35px;
+}
+.number p {
+    font-size: 2em;
+}
+
+.number h3 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.maintext h1 {
+    font-weight: bold;
+    font-size: 4em;
+    width: 53%;
+    margin: 330px auto 0 auto;
+}
+
+
+.cont1 {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 40px 0 40px 0;
+    margin-top: 280px;
+}
+
+.cont1 p {
+    font-size: 2em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.form-control {
+    height: 50px;
+    display: inline;
+}
+
+.zabrbut {
+    background-color:#A60436;
+    border-color: #A60436;
+}
+
+.zabrbut h3 {
+    margin: 0;
+    color: #fff;
+}
+
+.zabrtext {
+    padding-bottom: 20px;   
+    position: relative;
+    top: -20px;
+}
+.free {
+        padding-bottom: 60px;
+}
+.free p {
+    font-size: 3em;
+    font-weight: 600;
+        color:#333333;
+}
+
+.info {
+    width:100%;
+    max-width: 1500px;
+    border-bottom: 5px solid #a60436;
+}
+
+.info .col-xs-2 {
+    width: 16%;
+}
+
+.info .col-xs-2 p {
+    color:#A60436;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 25px;
+}
+.carousel {
+    display: none;
+    border-bottom: 5px solid #a60436;
+} 
+
+.item {
+ padding-top: 30px;
+}
+.item img {
+    margin: 0 auto;
+}
+
+.item p {
+    color: #C81B1B;
+        font-weight: 800;
+        text-align: center;
+            padding-top: 30px;
+    font-size: 2em;
+}
+
+.price h2 {
+    color: #393939;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pricelist {
+    width: 300px;
+    height: 847px;
+    border: 6px solid #C81B1B;
+    border-radius: 5px;
+    min-width: 300px;
+    }
+
+.price .container {
+        width: 100%;
+    max-width: 1500px;
+} 
+
+
+@media (max-width: 991px) {
+    .number {
+        text-align: center;
+    }
+
+    .maintext h1 {
+        font-size: 33px;
+        margin: 55px auto;
+        text-indent: -13px;
+    }
+    .cont1 {
+        margin: 0;
+    }
+    
+    .cont1 .form-control {
+        width: 75%;
+        margin-bottom: 15px;
+    }
+
+
+}
+
+@media (max-width:380px) {
+    .zabrbut h3 {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 1250px)
+{
+            .carousel {
+        display: block;
+    }
+        .info {
+        display: none;
+    }
+
+}
