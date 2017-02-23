@@ -231,3 +231,7 @@ font-weight: bold;}
 .footer  :-ms-input-placeholder      {color:#c0392b;
 font-size: 15px;
 font-weight: bold;}
+
+.footer .col-md-3 {
+    margin-top: 10px;
+}
