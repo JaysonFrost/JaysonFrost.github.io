@@ -51,13 +51,20 @@ body {
 }
 
 .zabrbut {
-    background-color:#A60436;
-    border-color: #A60436;
+    background-color: #A60436;
+    height: 50px;
+    border-radius: 4px;
+    padding-top: 9px;
+    cursor: pointer;
 }
 
-.zabrbut h3 {
+.zabrbut:hover {
+    background-color: #d81451;
+}
+.zabrbut span {
     margin: 0;
     color: #fff;
+    font-size: 24px;
 }
 
 .zabrtext {
@@ -118,10 +125,12 @@ body {
 
 .pricelist {
     width: 300px;
-    height: 847px;
+    height: 605px;
     border: 6px solid #C81B1B;
     border-radius: 5px;
     min-width: 300px;
+    margin-left: 55px;
+    margin-top: 15px;
     }
 
 .price .container {
@@ -169,3 +178,56 @@ body {
     }
 
 }
+
+.pricelist h3 {
+        font-size: 24px;
+    font-weight: bold;
+    color: #393939;
+    text-align: center;
+}
+
+.infotext {
+font-size: 20px;
+    font-weight: bolder;
+    color: #393939;
+    text-align: center;
+    margin-top: 13px;
+}
+
+.roominfo {
+    font-size: 20px;
+    font-weight: 400;
+    color: #393939;
+        margin-top: 25px;
+}
+
+.zabr1 {
+    height: 60px;
+    padding-top: 11px;
+    font-size: 26px;
+    margin-top: 40px;
+}
+
+.hfooter h2 {
+        font-size: 28px;
+    color: #393939;
+    text-align: center;
+    font-weight: bold;
+        margin-top: 35px;
+}
+
+.footer .container {
+    padding-top: 0;
+        padding-bottom: 40px;
+}
+
+.footer ::-webkit-input-placeholder {color:#c0392b;
+font-size: 15px;
+font-weight: bold;}
+.footer  ::-moz-placeholder          {color:#c0392b;
+    font-size: 20px15    font-weight: bold;}/* Firefox 19+ */
+.footer  :-moz-placeholder           {color:#c0392b;
+    font-size: 20px15    font-weight: bold;}/* Firefox 18- */
+.footer  :-ms-input-placeholder      {color:#c0392b;
+font-size: 15px;
+font-weight: bold;}
